@@ -52,6 +52,8 @@ public partial class CreateMap : MonoBehaviour
 
             _new_MeshFilter.mesh = _Mesh;
 
+            _new_MeshFilter.gameObject.AddComponent<MeshRenderer>();//to actually display the mesh...
+
         }
 
 
